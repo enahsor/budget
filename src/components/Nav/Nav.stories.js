@@ -2,13 +2,13 @@ import React from "react";
 import Nav from "./index";
 
 export default {
-  title: "Example/Nav",
+  title: "Nav",
   component: Nav,
   argTypes: {},
 };
 
 const Template = (args) => <Nav {...args} />;
 
-export const Normal = Template.bind({});
+export const Default = Template.bind({});
 
-Normal.args = {};
+Default.args = {};

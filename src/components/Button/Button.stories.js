@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./index";
 
 export default {
-  title: "Example/Button",
+  title: "Button",
   component: Button,
   argTypes: {
     onClick: () => console.log("Button clicked"),

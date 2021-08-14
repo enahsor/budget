@@ -5,7 +5,7 @@ import { useSpring } from "react-spring";
 const NavButton = ({ Icon, label, active, onClick }) => {
   const [isBeingHovered, setIsBeingHovered] = useState(false);
   const style = useSpring({
-    opacity: isBeingHovered ? 0.5 : 1,
+    opacity: active ? 1 : isBeingHovered ? 0.5 : 1,
   });
 
   function handleClick() {

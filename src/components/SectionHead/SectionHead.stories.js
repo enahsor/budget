@@ -4,14 +4,14 @@ import SectionHead from "./index";
 const Template = (args) => <SectionHead {...args} />;
 
 export default {
-  title: "Example/SectionHead",
+  title: "SectionHead",
   component: SectionHead,
   argTypes: {},
 };
 
-export const Normal = Template.bind({});
+export const Default = Template.bind({});
 
-Normal.args = {
+Default.args = {
   name: "Budgets",
   onAdd: () => console.log("Calling add item function"),
 };

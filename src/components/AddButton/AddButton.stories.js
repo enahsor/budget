@@ -3,7 +3,7 @@ import { secondary } from "styles/fonts";
 import AddButton from "./index";
 
 export default {
-  title: "Example/AddButton",
+  title: "AddButton",
   component: AddButton,
   argTypes: {
     type: "primary",

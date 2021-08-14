@@ -3,7 +3,7 @@ import NavButton from "./NavButton";
 import { FaAward } from "react-icons/fa";
 
 export default {
-  title: "Example/NavButton",
+  title: "NavButton",
   component: NavButton,
   argTypes: {
     active: Boolean,
